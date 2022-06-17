@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+  font-size:15px;
+  background-color:hsla(0, 0%, 100%, 0.75);
+}
+.main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color:hsla(0, 0%, 100%, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#one{
+    background-color: hsl(31, 77%, 52%);
+    height: 350px;
+}
+.one{
+ color: hsl(31, 77%, 52%);
+}
+#two{
+    background-color: hsl(184, 100%, 22%);
+    height: 350px;
+}
+.two{
+    color: hsl(184, 100%, 22%);
+   }
+#three{
+    background-color: hsl(179, 100%, 13%);
+    height: 350px;
+}
+.three{
+    color: hsl(179, 100%, 13%);
+}
+button{
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    font-size: 50%;
+    margin: 5px;
+    border-color: transparent;
+    /* background-color:  hsl(0, 0%, 95%); */
+    /* color:hsla(0, 0%, 100%, 0.061); */
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 10px;
+}
+h2{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display';
+    margin: 10px;
+    /* 
+    font-weight: 700px; */
+}
+@media ( max-width:400px){
+    .main{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background-color:hsla(0, 0%, 100%, 0.75);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
