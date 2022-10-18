@@ -8,6 +8,9 @@ body {
   /* place-content: center; */
   margin: 200px;
 }
+a {
+    text-decoration: none;
+}
  main{
     display:flex;
     justify-items: center;
