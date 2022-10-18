@@ -7,6 +7,9 @@ body{
   background-color:hsla(0, 0%, 100%, 0.75);
 }
 a {
+    margin-left:auto;
+    margin-right: auto;
+    padding: 5px;
     text-decoration: none;
 }
 .main{
