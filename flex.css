@@ -6,6 +6,9 @@ body{
   font-size:15px;
   background-color:hsla(0, 0%, 100%, 0.75);
 }
+a {
+    text-decoration: none;
+}
 .main{
     position: absolute;
     top: 0;
